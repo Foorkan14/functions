@@ -16,4 +16,33 @@ function grumpus(){
 
 //so like this
 
-grumpus();
+// grumpus();
+
+
+//using functions in loops
+
+// for (let i = 0; i<10; i++){
+//     grumpus();
+// }
+
+
+///DICE ROLL FUNCTION
+function rollDie(){
+    let roll = Math.floor(Math.random() * 6) //we floor it to get rid of decimal, and math.random will only bring decimal numbers less than 1 but greater than 0
+    console.log(`rolled: ${roll}`);
+}
+// rollDie();
+
+
+//if we want die to be rolled 6 times we can put this roll function within another function
+
+function throwDice(){
+    rollDie();
+    rollDie();
+    rollDie();
+    rollDie();
+    rollDie();
+    rollDie();
+}
+
+throwDice();
