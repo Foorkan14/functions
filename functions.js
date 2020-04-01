@@ -36,13 +36,15 @@ function rollDie(){
 
 //if we want die to be rolled 6 times we can put this roll function within another function
 
-function throwDice(){
-    rollDie();
-    rollDie();
-    rollDie();
-    rollDie();
-    rollDie();
-    rollDie();
-}
+// function throwDice(){
+//     rollDie();
+//     rollDie();
+//     rollDie();
+//     rollDie();
+//     rollDie();
+//     rollDie();
+// }
 
-throwDice();
+// throwDice();
+
+
