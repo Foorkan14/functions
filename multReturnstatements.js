@@ -12,14 +12,38 @@ function square(x){
 
 //example 2 
 
-function isPurple(color){
-    if (color === 'purple'){
-        return true;
-    }
-    else{
-        return false;
-    }
+// function isPurple(color){
+//     if (color == 'purple'){
+//         return (true);
+//         console.log('yes');
+//     }
+//     else{
+//         return (false);
+//         console.log('no');
+//     }
 
-}
+// }
 
-isPurple('blue'); //will return false
+// mycolor= isPurple('purple'); //will return false
+
+
+
+//example 3 
+
+// function isPurple(arr){
+//     for(let color of arr){
+//     if (color === 'purple'|| color === 'magenta'){
+//         return true;
+//     }
+// }
+// else{
+//     return (false);
+
+// }
+// ['blue', 'pink', 'magenta']
+
+
+
+// Practice 
+
+
