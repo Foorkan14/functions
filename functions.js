@@ -48,3 +48,5 @@ function rollDie(){
 // throwDice();
 
 
+//FUNCTIONS WITH ARGUMENTS BEING PASSED THROUGH THEM
+
