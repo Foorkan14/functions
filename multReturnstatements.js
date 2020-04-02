@@ -22,4 +22,4 @@ function isPurple(color){
 
 }
 
-isPurple('blue');
+isPurple('blue'); //will return false
