@@ -29,11 +29,11 @@
 //then we store the function within a variable, for demonstration purposes i will use the sum variable again
 
 
-function add(x,y){
-    return (x + y);
+// function add(x,y){
+//     return (x + y);
 
-}
+// }
 
-const sum = add(14, 12);
+// const sum = add(14, 12);
 
 //now when we console.log sum we will get 26 because now the return value has been stored within it
