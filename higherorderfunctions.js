@@ -57,3 +57,43 @@ function laugh(){
     console.log("hahahahahah");
 }
 callTwice(laugh)//we are passing the function laugh into the function callTwice
+
+//example 2 function that accepts function as argument
+
+function callThreeTimes(func){
+    func();
+    func();
+    func();
+}
+
+function cry(){
+    console.log("BOOO I AM SAD! ");
+}
+callThreeTimes(cry);
+
+
+//example 3  we will create a function that will call a function (use a function) n number of times
+
+function repeatNTIMES(func, num){
+    for(let i = 0; i < num; i++){ //we want function to run all the way up to however much num is equal to
+        func ();
+    }
+}
+
+repeatNTIMES(cry, 5); //so cry takes place of func, and 5 takes place of num
+
+
+
+//this function will accept 2 functions but will randomy run only one of them
+
+function pickOne(func1, func2){
+    let rand = Math.random()
+        if (rand < 0.5){ //if the number that randomly is selected is less than .5 than we will run function1 
+            func1();
+        } else{
+            func2();
+        }
+    
+}
+
+pickOne(laugh, cry);
