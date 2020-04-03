@@ -97,3 +97,10 @@ function pickOne(func1, func2){
 }
 
 pickOne(laugh, cry);
+
+
+
+
+//RETURNING FUNCTIONS FROM WITHIN A FUNCTION
+
+function multiplyBy(3);
