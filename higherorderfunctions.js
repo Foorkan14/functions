@@ -38,3 +38,13 @@ for (let num of operations){
 const thing = {
     doSomething: multiple //doSomething is a object and it's value is the multiple function
 }
+
+
+//higher order functions
+
+//higher order functions are functions that operate on/with other functions. 
+//they can accept other functions as arguments, or they can return a function
+
+
+//example 1 function that accepts other functions as arguments
+
