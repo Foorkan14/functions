@@ -43,3 +43,6 @@ function doubleArr(arr){
     return result;
 }
 console.log(doubleArr([1, 2, 3]));
+
+
+//lexical scope is basically a scope when we have a function nested within another function, the nested function has access to the let variables of the function that it is nested within 
