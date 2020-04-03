@@ -48,3 +48,12 @@ const thing = {
 
 //example 1 function that accepts other functions as arguments
 
+function callTwice(func){
+    func();
+    func();
+}
+
+function laugh(){
+    console.log("hahahahahah");
+}
+callTwice(laugh)//we are passing the function laugh into the function callTwice
