@@ -48,3 +48,34 @@ function printTriple(n){ //this isnt a anonymous function, that is the only diff
 }
 numbers.forEach(printTriple);
 
+
+//example 5 with a more complexed array
+
+const books = [{
+    title: "good omens" ,
+    authors: ["terry", "neil"],
+    rating: 4.25
+},
+{
+    title: "american", 
+    authors: ['neil gaiman'], 
+    rating: 4.11
+},
+{
+    title: "a gentleman in moscow", 
+    authors: ["amor towles"], 
+    rating: 4.26
+}
+]
+//if i want to print out each title i would use for each like this
+
+books.forEach(function(book){
+    console.log(books.title.toUpperCase())
+
+
+})
+//you can do exact same thing using for of 
+
+for (let book of books){
+    console.log(book.title.toUpperCase())
+}
