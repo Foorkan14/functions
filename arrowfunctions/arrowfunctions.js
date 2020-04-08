@@ -4,8 +4,8 @@
 
 //example 1 a function expression without arrow format
 
-// const square = function(x){
-//     return x * x;
+// const square = function(x){ //x is what will be passed through as the argument
+//     return x * x; 
 // }
 
 // //now same function as arrow function
